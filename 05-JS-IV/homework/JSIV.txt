@@ -1,0 +1,67 @@
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos : Un objeto es una coleccion de propiedades, que a su vez, estas son asociaciones entre nombres (que en un futuro serán las keys)
+          y el valor de este nombre, por ejemplo..
+          objeto={nombre:"valor"}
+
+          Los objetos son similares a los arreglos (array,lista) en algunas cosas y diferentes en otras, por ejemplo
+          un array es un objeto pero con un índice numérico, esto quiere decir que dentro almacenarémos las cosas en un orden específico,
+          mientras que dentro de un objeto, almacenarémos cosas dentro de pequeñas cajitas(propiedades) con nombres especificos, que serían las KEYS 
+          por ejemplo 
+          objeto={
+              nombre:"nombre",
+              edad:25
+          }
+
+Propiedades : Las propiedades son las pequeñas cajitas que mencionamos antes, donde guardaremos cosas (valores), 
+              esto nos permite tener muchos objetos con las mismas propiedades pero todos con valores diferentes , por ejemplo
+              podríamos tener un objeto llamado "listaDePerritos" y dentro tener propiedades de edad,colorDePelo,vacunacion,raza, etc
+
+Métodos: También podemos almacenar funciones dentro de los objetos, como si fuera una propiedad mas dentro del objeto
+         a esto le llamaremos "Métodos" los cuales podemos invocarlos de necesitarlos, por ejemplo..
+         objeto.funcion=function{return 'hola'}
+         objeto.funcion(); = 'hola' 
+
+Bucle for…in: es un bucle similar al for que ya conocemos, pero con la diferencia que este es constante hasta recorrer lo solicitado, es decir
+              Sí tenemos un objeto que tiene varias propiedades y queremos mostrarlas todas, y no podemos escribir cada una de ellas para mostrarlas
+              Entonces utilizariamos el siguiente ejemplo:
+
+    listaPropiedades=["nombre","edad","colorDePelo"];
+    
+    for (i=0;i<listaPropiedades.length;i++){     //hacemos un for para recorrer la lista de propiedades
+        buscador=listaPropiedades[i]             //buscador tomara el valor i de la lista que recorremos
+        for( buscador in alumnos[i]){            //este segundo bucle buscará dentro del objeto alumnos con índice i el valor que tenga dentro de la propiedad que tomó buscador
+            return buscador;
+            return alumnos[i].buscador;
+        }
+
+    }
+
+    Esto debería entregarnos lo siguiente : 
+
+    nombre 
+    'Valeria'
+    edad
+    25
+    colorDePelo
+    'Castaño'
+
+    en palabras simples, el bucle "for in" sirve para buscar en un ciclo indefinido algo puntual dentro de un objeto, 
+    este ciclo finalizará cuando termine de recorrer el objeto sin encontrar otro parametro similar al que busca
+
+Notación de puntos vs notación de corchetes:
+
+La notación de puntos , o en ingles "DOT NOTATIoN" sería de la siguiente manera..
+    objeto.parametro
+
+Mientras que la notacion de corchetes o en ingles "BRACKET NOTATION" sería...
+    objeto['parametro']
+
+la notacion por puntos es similar a la notacion por corchetes, solo que la ultima es mejor para algunos casos si necesitamos trabajar con variables.
+Por ejemplo:
+
+temp=x+y
+objeto[temp]
