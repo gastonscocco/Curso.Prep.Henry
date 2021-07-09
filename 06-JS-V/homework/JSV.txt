@@ -1,0 +1,14 @@
+prototype: Utilizamos prototype para guardar dentro de una clase alguna propiedad o funcion para evitarnos repetir mucho codigo,
+           Podemos decir que usamos prototype para crear funciones dentro de clases primarias y evitar repetir el codigo,
+           dentro de los objetos de esta misma clase.
+           por ejemplo:
+        function Clase(cosa){this.cosa=cosa;}
+
+           entonces: 
+        Clase.prototype.mostrarCosa=function(){return this.cosa}
+
+           Algo importante para destacar, es que si dentro de un objeto que este dentro de la clase "Clase" ya posee una funcion "mostrarCosa"
+           al invocarla utilizará primero la del objeto, y luego la del prototipo.
+
+Constructors (de Clases):
+        Un constructor es una funcion que usamos para crear (o utilizar) un objeto creado dentro de una clase 
