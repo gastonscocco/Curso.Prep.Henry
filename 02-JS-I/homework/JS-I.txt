@@ -1,0 +1,20 @@
+Variables : 
+	Estas podrían ser interpretadas como "cajas" donde meteremos cosas (valores) y luego podremos utilizar lo que depositemos dentro mas adelante, incluso
+podremos cambiar lo que tenga dentro esta "caja" , a no ser que sea una constante, ya que esta no permite cambiar lo que tiene dentro una vez algo se le deposita en ella.
+
+Strings:
+	Es una de las tantas cosas que podemos guardar dentro de una variable, ademas de ser un tipo de dato, mayormente se utiliza para guardar texto, 
+ya sea una unica letra o un numero, una palabra, o un texto, ademas de las Strings tambien existen los datos numericos , y los datos booleanos (verdadero falso).
+
+Funciones (argumentos, return) : 
+	Una funcion es un trabajo que queremos que nuestro codigo realice cada vez que la invoquemos, esta puede solicitarnos o no, un argumento para trabajarlo,
+por ejemplo, la funcion agruparNombreApellido, nos juntara nuestro nombre con nuestro apellido, nos solicitaría como argumento, la variable "nombre" y la variable "apellido",
+y nos devolveria el resultado mediante un "return" que es el retorno o resultado de esta funcion.
+
+Declaraciones if : 
+	Cuando necesitamos comparar datos para saber si podemos realizar algo, se suele utilizar "if" que significa "Sí" , por ejemplo.. Sí "edad" es mayor que 18, entonces puede conducir,
+Síno no puede conducir, digamos que esto lo usamos para, Sí esto se cumple, hacer tal, Síno hacer tal.
+
+Valores booleanos (true, false) : 
+	Es un tipo de dato, que varía entre dos opciones, verdadero o falso, 1 o 0 , encendido o apagado, se suele usar para saber si se cumplen condiciones, por ejemplo
+Sí edad mayor que 18 entonces verdadero.
