@@ -1,0 +1,39 @@
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+- for : Es un bucle que utilizamos para acortar la cantidad de código que tenemos que escribir
+	Esta funciona de la siguiente manera:
+	for ( var i = 0 ; i<10 ; i++ ) {};  
+	En esta linea vemos como el bucle for necesita que le declaremos tres cosas separadas por ;
+	La primera es una variable temporal que utilizará el bucle para saber en que  ciclo está, ya que este repite los pasos hasta que termine.
+	La segunda, es "cuando" queremos que termine, mientras "i" sea menor (<) a 10, entonces no se detendrá,
+	pero cuando "i" sea igual a 10, entonces el ciclo del bucle for, terminará y nuestro código seguirá adelante.
+	Y la ultima expreción que necesitamos, es un contador (i++), esto quiere decir que al final de cada ciclo, le sumemos un 1 a nuestra "i" 
+	se puede hacer de dos formas, tanto "i++", como "i+1" funcionarán.
+
+- &&  : Es un operador logico, conocido como "AND" o "y" , por ejemplo si queremos decir 
+	if (a = true Y b = true){}; 
+	entonces pondremos : 
+	if (a=true&&b=true){};
+	Este operador solo dará "verdadero" si AMBAS opciones son verdaderas, si una de estas no lo es, entonces el resultado será un "false"
+
+- ||  : Al igual que el anterior, este es otro operador conocido como "OR" o "O" que cubre la necesidad que el "AND" no.. por ejemplo
+	Si queremos hacer algo si una de las dos opciones es "true" pero nos da igual cual de las dos es, entonces hariamos lo siguiente.. 
+	if ( a = true Ó b = true ){};
+	Con el operador quedaria asi:
+	if (a=true||b=true){};
+	De esta forma funcionará cuando una de ambas o incluso ambas, sean "true" , en el único caso que esto NO funcionaria, es si 
+	ambas opciones son "false".
+
+- !   : Este operador es un "negador" , irá delante de lo que querramos invertir, es decir, si queremos que un valor "true" sea opuesto, entonces pondremos
+	este operador delante, por ejemplo... 
+	Si queremos que (a=true;) ...
+
+	console.log(a); --> muestra true.
+
+	sea opuesto, entonces:
+	
+	console.log(!a); --> muestra false.
+
+	De esta forma podemos obtener el valor opuesto al original, y en el caso de usar "!!" tendriamos un verdadero nuevamente. 	
