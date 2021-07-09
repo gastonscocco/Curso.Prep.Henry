@@ -1,0 +1,11 @@
+Array : Al igual que una variable, el array es una caja donde podrémos guardar cosas,
+        con la diferencia que podremos guardar muchas cosas dentro, lo podemos comparar con una lista.
+        Entonces, podríamos decir que un array es simular a una lista, en la cual puedes ir anotando cosas, o borrando si lo necesitas.
+        Para anotar algo en la lista podemos usar:
+        array=[cosa1, cosa2, cosa3] de esta manera obtenemos una lista con cosas dentro
+        array.push(algo) de esta manera agregamos un nuevo objeto AL FINAL de la lista
+        array.unshift(algo) de esta manera agregamos un nuevo objeto AL COMIENZO de la lista
+        array.pop() con esto conseguimos que nos muestre el ULTIMO objeto de la lista pero,
+        tambien lo ELIMINA de la lista, asi que mucho cuidado.
+        tambien podrémos saber cuantas cosas tenemos dentro de la lista utilizando..
+        array.length Esto nos dice la longitud de la lista
