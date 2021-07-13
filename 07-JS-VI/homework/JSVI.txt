@@ -1,0 +1,18 @@
+Funciones Callback = 
+
+    Le llamamos así a utlizar una función como parámetro dentro de otra función, como argumento, por ejemplo=
+
+function despedirPersona(){
+    return 'Hola '+persona+'!';
+}
+
+function saludarPersona(){
+    return 'Hola '+persona+'!';
+}
+
+function saludoPersona(persona, cb){
+    return cb(persona);
+}
+
+saludoPersona('Raul',saludarPersona);
+= Hola Raul!
