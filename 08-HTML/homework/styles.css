@@ -1,0 +1,49 @@
+
+h1{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+    position: fixed;
+    left: auto;
+    top: 10px;
+    left: 43%;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.e07309a4c799ccc5b3b4872870f7b270?rik=B3BL5U8wh99ASA&pid=ImgRaw);
+    margin: 30px;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    padding: 10px;
+    height: 250px;
+}
+
+.divClass{
+    width: 100%;
+    padding: 80px 10px 30px;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(100, 100, 100);
+    padding: 50px;
+    border: 2px groove rgb(112, 73, 0);
+    margin: 10px auto 5px;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+ul{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
